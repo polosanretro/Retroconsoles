@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="background1" extra="true">
+			<storyboard>
+				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="background" extra="true">
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="pos" to="1.5 0.5" begin="0" duration="0" mode="linear"/>
+				<animation property="pos" to="0.95 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.51</pos>
+			<maxSize>0.61</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<pos>0.49 0.2</pos>
+			<text>1977</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.03</fontSize>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+		<text name="TextName" extra="true">
+			<pos>0.49 0.25</pos>
+			<text>Collection Star Wars</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>0.065</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="x" from="0.5" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+
+
+		<image name="boite" extra="true">
+			<path>./../../_inc/boites/${system.theme}.png</path>
+			<pos>0.745 0.15</pos>
+		<maxSize>0.20 0.20</maxSize>
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</image>
+		<text name="TextDesc" extra="true">
+			<size>0.5 0</size>
+			<pos>0.49 0.4</pos>
+			<text>Star Wars originally named by its French title, Star Wars) is a science fiction universe created by George Lucas. First conceived as a cinematographic trilogy released between 1977 and 1983, the saga then grew, between 1999 and 2005, by three new films, which recount events prior to the first trilogy. The latter (episodes IV, V and VI) as well as the second trilogy known as “Prelogy” (episodes I, II and III) have enjoyed immense commercial success and a generally positive critical reception. For the sake of consistency, and to achieve a result that he had not been able to obtain from the start, the creator of the saga is also reworking the films of his first trilogy, released in 1997 and 2004 in new versions.
+
+The copyrights of Star Wars are bought in 2012 by the Walt Disney Company for 4.05 billion dollars: the theatrical release of the seventh episode of the saga and first of the third trilogy (episodes VII, VIII and IX) is then planned for 2015. The Force Awakens became the franchise's biggest commercial success within a month. It is followed by The Last Jedi in 2017 and The Rise of Skywalker in 2019. In addition, Disney and the production company Lucasfilm inaugurate in 2016 a series of derivative films grouped under the acronym A Star Wars Story, with the release of Rogue One whose events take place just before Episode IV. If Disney announces new films in May 2019 that will not belong to the Skywalker family saga</text>
+			<text lang="fr">Star Wars à l'origine nommée sous son titre français, La Guerre des étoiles) est un univers de science-fiction créé par George Lucas. D'abord conçue comme une trilogie cinématographique sortie entre 1977 et 1983, la saga s'accroît ensuite, entre 1999 et 2005, de trois nouveaux films, qui racontent des événements antérieurs à la première trilogie. Cette dernière (épisodes IV, V et VI) ainsi que la deuxième trilogie dite « Prélogie » (épisodes I, II et III) connaissent un immense succès commercial et un accueil critique généralement positif. Dans un souci de cohérence, et pour atteindre un résultat qu'il n'avait pas pu obtenir dès le départ, le créateur de la saga retravaille également les films de sa première trilogie, ressortis en 1997 et 2004 dans de nouvelles versions.
+
+Les droits d'auteur de Star Wars sont achetés en 2012 par la Walt Disney Company pour 4,05 milliards de dollars : la sortie au cinéma du septième épisode de la saga et premier de la troisième trilogie (épisodes VII, VIII et IX) est alors planifiée pour 2015. Le Réveil de la Force devient en l'espace d'un mois le plus important succès commercial de la franchise. Il est suivi par Les Derniers Jedi en 2017 et L'Ascension de Skywalker en 2019. Par ailleurs, Disney et la société de production Lucasfilm inaugurent en 2016 une série de films dérivés regroupés sous le sigle A Star Wars Story, avec la sortie de Rogue One dont les événements se situent juste avant l'épisode IV. Si Disney annonce en mai 2019 de nouveaux films qui n'appartiendront pas à la saga de la famille Skywalker, le studio met leur développement en pause après l'accueil mitigé des derniers opus. La franchise se tourne alors sur la plateforme de streaming Disney+, lancée en novembre 2019 avec la série The Mandalorian, précédant d'autres séries mettant en scène des personnages filmiques ou d'animation, comme Ahsoka.
+
+En accord avec les lois du genre space opera, l'action se déroule « il y a bien longtemps, dans une galaxie très lointaine » et se fonde sur la lutte entre les chevaliers Jedi et les Sith. Le personnage central des deux premières trilogies cinématographiques, Anakin Skywalker, cède à la tentation du côté obscur de la Force pour devenir Dark Vadorb, puis connaît sa rédemption grâce à l'action de son fils, Luke. La troisième trilogie, à partir de l'épisode VII, se déroule trois décennies plus tard avec une nouvelle génération de héros et d'antagonistes. Les nombreux personnages emblématiques, humains et extraterrestres, ont permis de lancer quelques carrières d'acteurs, notamment Harrison Ford et Natalie Portman. L'univers a été décliné dans divers produits dérivés conçus ou non sous l'égide de Lucas : romans, bandes dessinées, jeux vidéo, séries télévisées, etc. L'histoire de la série est ainsi élargie et approfondie par divers médias.</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.8" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+	</view>
+</theme>
