@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="background1" extra="true">
+			<storyboard>
+				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="background" extra="true">
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="pos" to="1.5 0.5" begin="0" duration="0" mode="linear"/>
+				<animation property="pos" to="0.95 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.363</pos>
+			<maxSize>0.260</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<pos>0.49 0.2</pos>
+			<text>1989</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.03</fontSize>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+		<text name="TextName" extra="true">
+			<pos>0.49 0.25</pos>
+			<text>American Laser Games</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>0.065</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="x" from="0.5" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+
+
+		<image name="boite" extra="true">
+			<path>./../../_inc/boites/${system.theme}.png</path>
+			<pos>0.745 0.15</pos>
+		<maxSize>0.20 0.20</maxSize>
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</image>
+		<text name="TextDesc" extra="true">
+			<size>0.5 0</size>
+			<pos>0.49 0.4</pos>
+			<text>American Laser Games is an Albuquerque, New Mexico-based company that has created many light gun laserdisc video games featuring live action full motion video. The company was founded in the late 1980s by Robert Grebe, who initially created a system to train police officers under the company name ICAT (Institute for Combat Arms and Tactics) and then adapted the technology for gaming. arcade. His first successful game was Mad Dog McCree, a light pistol shooter set in the American Wild West. By mid-1995, they were recognized as the leading company in laser disc-based arcade games. [1] Almost all of the arcade games released by the company were small arms shooters and a number of them also had an Old West theme.
+
+The company later turned to compact disc technology to release its games. The ports of its arcade titles have been released for Sega CD, CD-i, and DOS computers with CD-ROM drives. The company has particularly supported the 3DO, not only by releasing versions of its games for the console, but also by offering a modified version of the 3DO platform as an upgrade kit for the video game cabinets of existing arcade games, supporting compressed video versions of their games at a lower cost. In 1995, American Laser Games launched Mazer for the home market 3DO and Orbatak (3DO-powered) for the arcade - their first and only non-Full Motion video game in-house.</text>
+			<text lang="fr">Américaine Laser Games est une société basée à Albuquerque , Nouveau - Mexique qui a créé de nombreuses armes à feu lumière jeux vidéo laserdisc mettant en vedette l' action en direct vidéo complète de mouvement . La société a été fondée à la fin des années 1980 par Robert Grebe, qui avait initialement créé un système pour former des policiers sous le nom de société ICAT (Institute for Combat Arms and Tactics) et a ensuite adapté la technologie pour les jeux d'arcade . Son premier jeu à succès fut Mad Dog McCree , un jeu de tir au pistolet léger se déroulant dans le Far West américain . À la mi-1995, ils étaient reconnus comme la société leader dans le domaine des jeux d'arcade basés sur des disques laser.[1] Presque tous les jeux d'arcade publiés par la société étaient des jeux de tir à l'arme légère et un certain nombre d'entre eux avaient également un thème Old West.
+
+Plus tard, la société s'est tournée vers la technologie des disques compacts pour sortir ses jeux. Les ports de ses titres d'arcade ont été publiés pour les ordinateurs Sega CD , CD-i et DOS équipés de lecteurs de CD-ROM . La société a particulièrement soutenu le 3DO , non seulement en publiant des versions de ses jeux pour la console, mais en proposant également une version modifiée de la plate-forme 3DO en tant que kit de mise à niveau pour les armoires de jeux vidéo d'arcade existantes, prenant en charge les versions vidéo compressées de leurs jeux à un moindre coût. En 1995, American Laser Games a lancé Mazer pour le marché domestique 3DO et Orbatak(3DO-powered) pour l'arcade - leur premier et unique jeu vidéo non Full Motion en interne. La société a également lancé une série de contrôleurs de pistolets légers, dont le 3DO Game Gun et le PC Gamegun, pour une utilisation sur ordinateur domestique. Ce dernier s'est avéré infructueux en raison de sa faible précision.
+
+Américains Laser Games a duré jusqu'au milieu des années 1990 à la fin des temps, par lequel il avait commencé à faire des « jeux pour les filles » pour le PC sous le nom Her Interactive , en commençant par McKenzie & Co . [2] En réponse à un effondrement majeur de l'industrie des jeux d'arcade, American Laser Games a mis fin à sa fabrication directe de machines à sous en novembre 1995 [3] et s'est concentré sur le développement de jeux pour Sega Saturn et Sony PlayStation . [4] Cela n'a pas réussi à relancer la fortune de l'entreprise, et les revenus en 1996 représentaient environ la moitié des 16 millions de dollars qu'elle a générés en 1995. [5]À la fin de 1996, ALG a licencié un tiers de son personnel, Jan Claesson a remplacé Grebe en tant que président et la société a commencé à se concentrer principalement sur la gamme Her Interactive, annulant tous les jeux de sa gamme grand public, à l'exception de Shining Sword . [5] La société a finalement fermé ses portes et a été rachetée par Her Interactive, qui avait été scindée avant la fermeture d'ALG et qui fabrique toujours des jeux en janvier 2018. En 2000, les droits de développement et de publication de tous les jeux qui ont été produits par American Laser Games ont été achetés par Digital Leisure, Inc auprès de Her Interactive. Beaucoup de ces jeux ont ensuite été réédités pour PC et au format de jeu DVD TV .</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.8" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+	</view>
+</theme>

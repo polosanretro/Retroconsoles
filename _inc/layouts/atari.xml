@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="background1" extra="true">
+			<storyboard>
+				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="background" extra="true">
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="pos" to="1.5 0.5" begin="0" duration="0" mode="linear"/>
+				<animation property="pos" to="0.95 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.363</pos>
+			<maxSize>0.260</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<pos>0.49 0.2</pos>
+			<text>1970</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.03</fontSize>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+
+		<image name="boite" extra="true">
+			<path>./../../_inc/boites/${system.theme}.png</path>
+			<pos>0.745 0.15</pos>
+		<maxSize>0.20 0.20</maxSize>
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</image>
+		<text name="TextName" extra="true">
+			<pos>0.49 0.25</pos>
+			<text>Atari</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>0.065</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="x" from="0.5" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+		<text name="TextDesc" extra="true">
+			<size>0.5 0</size>
+			<pos>0.49 0.40</pos>
+			<text>The Atari 8-bit family is a series of 8-bit home computers introduced by Atari, Inc. in 1979 as the Atari 400 and Atari 800 and manufactured until 1992. All of the machines in the family are technically similar and differ primarily in packaging. They are based on the MOS Technology 6502 CPU running at 1.79 MHz, and were the first home computers designed with custom coprocessor chips. This architecture enabled graphics and sound more advanced than contemporary machines, and gaming was a major draw. First-person space combat simulator Star Raiders is considered the platform's killer app. The systems launched with plug and play peripherals using the Atari SIO serial bus, an early analog of USB.
+
+The Atari 400 was initially almost half the cost of the Atari 800. Instead of the 800's full-sized keyboard, the 400 has a pressure-sensitive panel. The 800 has a second cartridge slot and a larger case allowing RAM upgrades to 48K. Both models were replaced by the XL series in 1983, then–after the company was sold and reestablished as Atari Corporation–the XE models in 1985. The XL and XE are lighter in construction while having Atari BASIC built-in and 2 joystick ports instead of 4. The 130XE increased the memory to 128 KB of bank-switched RAM.</text>
+			<text lang="pl">Rodzina 8-bitowych Atari. W roku 1978, po sukcesie konsoli Atari 2600, firma Atari Inc. postanowiła spróbować swych sił na rodzącym się dopiero rynku komputerów domowych. W listopadzie 1979 roku rozpoczęła sprzedaż modeli Atari 400 (nazwa kodowa Candy) i Atari 800 (nazwa kodowa Colleen) - tańszej i droższej wersji 8-bitowego komputera.</text>
+			<text lang="fr">Atari est une entreprise française de jeu vidéo, dont le siège est situé à Paris, en France.
+Atari est à l'origine une entreprise américaine fondée en 1972 par Nolan Bushnell et Ted Dabney, considérée comme pionnière et fondatrice de l'industrie du jeu vidéo, devenue française en 2003 par son rachat par Infogrames. Elle est spécialisée dans le développement des jeux vidéo et fabrique des bornes d'arcade, des consoles de jeux et des ordinateurs personnels des années 1970 à 1990.</text>
+<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.8" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+	</view>
+</theme>

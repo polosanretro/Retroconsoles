@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="background1" extra="true">
+			<storyboard>
+				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="background" extra="true">
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="pos" to="1.5 0.5" begin="0" duration="0" mode="linear"/>
+				<animation property="pos" to="0.95 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.35</pos>
+			<maxSize>0.351</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<pos>0.49 0.2</pos>
+			<text>1989</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.03</fontSize>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+		<text name="TextName" extra="true">
+			<pos>0.49 0.25</pos>
+			<text>Collection DBZ</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>FFFFFF</color>
+			<fontSize>0.065</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="x" from="0.5" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+
+
+		<image name="boite" extra="true">
+			<path>./../../_inc/boites/${system.theme}.png</path>
+			<pos>0.745 0.15</pos>
+		<maxSize>0.20 0.20</maxSize>
+			<zIndex>90</zIndex>
+			<storyboard>
+				<animation property="y" from="0.1" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</image>
+		<text name="TextDesc" extra="true">
+			<size>0.5 0</size>
+			<pos>0.49 0.4</pos>
+			<text>Dragon Ball Z (ド ラ ゴ ン ボ ー ル Z (ゼ ッ ト), Doragon Bōru Zetto ?, common abbreviation DBZ) is a Japanese animated television series adapted from Akira Toriyama's Dragon Ball franchise and produced by Toei Animation. This series is a follow-up to the Dragon Ball anime and adapts the last twenty-six volumes of the manga.
+
+The series originally aired on April 26, 1989 on Fuji Television in Japan with a new schedule compared to the earlier series [clarification needed], in 291 25-minute episodes, the last one airing on January 31, 19961. A remastered version and ascent in 167 episodes (159 in original version), titled Dragon Ball Z Kai, was broadcast from April 5, 2009 to June 28, 2015. The original work Dragon Ball Z won the Kyo Prize in 2003 as well as the 4-Year Jump Prize. after.
+
+An alternate sequel, titled Dragon Ball GT, aired from February 7, 1996 until November 19, 1997.
+
+A direct sequel to the manga (excluding Arc Oob), titled Dragon Ball Super, aired from July 5, 2015 to March 25, 2018 on Fuji TV. A new feature film was announced on May 9, 2021 with a release date slated for 2022.</text>
+			<text lang="fr">Dragon Ball Z (ドラゴンボールZ(ゼット), Doragon Bōru Zetto?, abréviation commune DBZ) est une série télévisée d'animation japonaise adaptée de la franchise Dragon Ball d'Akira Toriyama et produite par Toei Animation. Cette série fait suite à l’anime Dragon Ball et adapte les vingt-six derniers volumes du manga.
+
+La série a été initialement diffusée le 26 avril 1989 sur Fuji Television au Japon avec un nouvel horaire par rapport à la série antérieure[précision nécessaire], en 291 épisodes de 25 minutes, le dernier ayant été diffusé le 31 janvier 19961. Une version remastérisée et remontée en 167 épisodes (159 en VO), intitulée Dragon Ball Z Kai, a été diffusée du 5 avril 2009 au 28 juin 2015. L'œuvre original Dragon Ball Z remporta lui le Prix Kyo en 2003 ainsi que le Prix Jump 4 ans après.
+
+Une suite alternative, intitulée Dragon Ball GT, a été diffusée du 7 février 1996 au 19 novembre 1997.
+
+Une suite directe au manga (hors Arc Oob), intitulée Dragon Ball Super, a été diffusée du 5 juillet 2015 au 25 mars 2018 sur Fuji TV. Un nouveau long métrage a été annoncé le 9 mai 2021 avec une date de sortie prévue en 2022.2</text>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>666666</color>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.8" begin="3000" duration="1000" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="1000" mode="EaseIn"/>
+			</storyboard>
+		</text>
+	</view>
+</theme>
