@@ -1,0 +1,31 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+
+
+
+	<view name="system">
+
+
+		<video name="box" extra="static">
+ 	<visible>true</visible>
+</video>
+
+
+<image name="blank" extra="true">
+ 	<visible>true</visible>
+</image>
+
+
+<image name="cadre" extra="true">
+ 	<visible>true</visible>
+</image>
+
+
+<image name="screen" extra="true">
+ 	<visible>true</visible>
+		</image>
+
+	</view>
+
+</theme>
