@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+
+	<view name="basic">
+
+	   <image name="wallpaper" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	<color>ffffff</color>
+         <path>./../../_inc/frames/GameWheel1-Vert.png</path>
+	<zIndex>100</zIndex>
+      </image>
+
+		<image name="logo">
+			<path>./../../_inc/logos4/${system.theme}.png</path>
+			<pos>0.13 0.136</pos>
+			<maxSize>0.200 0.108</maxSize>
+			<origin>0.5 0.5</origin>
+			<zIndex>106</zIndex>
+		</image>
+
+		<image name="background1" extra="true">
+			<tile>true</tile>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../../_inc/images/space.png</path>
+			<color>cccccc</color>
+		</image>
+
+
+		<textlist name="gamelist">
+			<selectorColor>333333ff</selectorColor>
+			<selectedColor>${baseColor}</selectedColor>
+			<primaryColor>cccccc</primaryColor>
+			<secondaryColor>cccccc</secondaryColor>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.02 0.19</pos>
+			<size>0.205 0.750</size>
+			<alignment>center</alignment>
+			<lines>19</lines>
+			<horizontalMargin>0.005</horizontalMargin>
+			<fontSize>0.025</fontSize>
+			<scrollbarColor>333333ff</scrollbarColor>
+			<scrollbarCorner>0.49</scrollbarCorner>
+			<scrollbarSize>0.005</scrollbarSize>
+			<scrollbarAlignment>outerright</scrollbarAlignment>
+        <scrollSound>./_assets/scroll/${x.scroll.sound}.wav</scrollSound>
+        <scrollSound>./_assets/scroll/${x.scroll.game.sound}.wav</scrollSound>
+<zIndex>192</zIndex>
+		</textlist>
+
+		<text name="logoText">
+			<pos>0.784375 0.1527777777777778</pos>
+			<size>0.15625 0.0555555555555556</size>
+			<fontSize>0.0444444444444444</fontSize>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<forceUppercase>true</forceUppercase>
+			<color>555555</color>
+<zIndex>192</zIndex>
+		</text>
+
+	  <image name="wallpaper2" extra="true">
+    <origin>0 0</origin>
+    <pos>0.20 0</pos>
+    <size>1 1</size>
+	<path>./../../_inc/wallpapers/${system.theme}.jpg</path>
+    <zIndex>99</zIndex> 
+    </image> 
+
+
+	</view>
+</theme>

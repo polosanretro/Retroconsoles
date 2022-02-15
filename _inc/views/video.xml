@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="video">
+
+	   <image name="wallpaper" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+	<color>ffffff</color>
+         <path>./../../_inc/frames/GameWheel1-Vert.png</path>
+	<zIndex>100</zIndex>
+      </image>
+
+	  <image name="wallpaper2" extra="true">
+			<visible>false</visible>
+    </image> 
+		<text name="md_lbl_rating,md_lbl_releasedate,md_lbl_lastplayed,md_lbl_developer,md_lbl_publisher,md_lbl_genre,md_lbl_players,md_lbl_playcount">
+			<visible>false</visible>
+		</text>
+		<text name="md_players,md_genre,md_description,md_developer,md_publisher,md_playcount,md_gametime">
+			<visible>false</visible>
+		</text>
+		<datetime name="md_lastplayed,md_releasedate">
+			<color>111111</color>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<fontSize>0.0194444444444444</fontSize>
+		</datetime>
+		<image name="ArrowBG" extra="static">
+			<visible>false</visible>
+		</image>
+		<image name="ArrowUp" extra="static">
+			<visible>false</visible>
+		</image>
+		<image name="ArrowDown" extra="static">
+			<visible>false</visible>
+		</image>
+		<video name="md_video">
+			<pos>0.20 0</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<delay>0.1</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<snapshotSource>image</snapshotSource>
+			<effect>none</effect>
+			<zIndex>99</zIndex>
+		</video>
+
+		<image name="video-background" extra="true">
+			<visible>false</visible>
+		</image>
+		<image name="video-screen" extra="true">
+			<visible>false</visible>
+		</image>
+
+
+
+    <image name="md_fanart">
+			<visible>false</visible>
+    </image>
+		<image name="logo">
+			<path>./../../_inc/logos4/${system.theme}.png</path>
+			<pos>0.13 0.136</pos>
+			<maxSize>0.200 0.108</maxSize>
+			<origin>0.5 0.5</origin>
+			<zIndex>106</zIndex>
+		</image>
+		<image name="background1" extra="true">
+			<tile>true</tile>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../../_inc/images/space.png</path>
+			<color>cccccc</color>
+			<zIndex>97</zIndex>
+		</image>
+		<image name="md_thumbnail">
+			<visible>false</visible>
+		</image>
+
+			<image name="animcd" extra="true">
+			<visible>false</visible>
+
+		<storyboard>
+			<visible>false</visible>
+		</storyboard>
+		</image>
+
+		<image name="md-description-border" extra="true">
+			<visible>false</visible>
+		</image>
+		<text name="md_description">
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<pos>0.270 0.705111111111111</pos>
+			<size>0.405 0.2340555555555556</size>
+			<fontSize>0.025</fontSize>
+			<zIndex>105</zIndex>
+		</text>
+		<image name="md-description-border2" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>333333ff</selectorColor>
+			<selectedColor>${baseColor}</selectedColor>
+			<primaryColor>cccccc</primaryColor>
+			<secondaryColor>cccccc</secondaryColor>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<pos>0.02 0.19</pos>
+			<size>0.205 0.750</size>
+			<alignment>center</alignment>
+			<lines>19</lines>
+			<horizontalMargin>0.005</horizontalMargin>
+			<fontSize>0.025</fontSize>
+			<scrollbarColor>333333ff</scrollbarColor>
+			<scrollbarCorner>0.49</scrollbarCorner>
+			<scrollbarSize>0.005</scrollbarSize>
+			<scrollbarAlignment>outerright</scrollbarAlignment>
+        <scrollSound>./_assets/scroll/${x.scroll.sound}.wav</scrollSound>
+        <scrollSound>./_assets/scroll/${x.scroll.game.sound}.wav</scrollSound>
+<zIndex>192</zIndex>
+		</textlist>
+
+		<text name="logoText">
+			<visible>false</visible>
+		</text>
+
+		<image name="md_flag">
+			<visible>false</visible>
+		</image>
+		<rating name="md_rating">
+			<visible>false</visible>
+		</rating>
+		<text name="md_players">
+			<visible>false</visible>
+		</text>
+		<image name="md_manual,md_nomanual">
+			<visible>false</visible>
+		</image>
+		<image name="md_nomanual">
+			<color>80808040</color>
+		</image>
+		<image name="md_cheevos,md_notcheevos">
+			<visible>false</visible>
+		</image>
+		<image name="md_notcheevos">
+			<color>80808040</color>
+		</image> 
+		<image name="md_savestate,md_nosavestate">
+			<visible>false</visible>
+		</image>
+		<image name="md_nosavestate">
+			<color>80808030</color>
+		</image>
+
+		<image name="md_hidden">
+			<visible>false</visible>
+		</image>
+		<image name="md_kidgame,md_notkidgame">
+			<visible>false</visible>
+		</image>
+		<image name="md_notkidgame"> 
+			<color>80808000</color>
+		</image>
+
+
+		<datetime name="md_releasedate">
+			<visible>false</visible>
+		</datetime>
+		<image name="release_date_logo" extra="true">
+			<visible>false</visible>
+		</image>
+		<text name="md_publisher">
+			<pos>0.4106 0.173</pos>
+			<size>0.107 0.0222222222222222</size>
+		</text>
+		<image name="publisher_logo" extra="true">
+			<visible>false</visible>
+		</image>
+	<!--<image name="players_logo" extra="true">
+			<visible>false</visible>
+		</image>-->
+		<text name="md_playcount">
+			<visible>false</visible>
+		</text>
+		<image name="playcount_logo" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<text name="md_developer">
+			<visible>false</visible>
+		</text>
+		<image name="developer_logo" extra="true">
+			<visible>false</visible>
+		</image>
+		<text name="md_genre">
+			<visible>false</visible>
+		</text>
+		<image name="genre_logo" extra="true">
+			<visible>false</visible>
+		</image>
+		<datetime name="md_lastplayed">
+			<visible>false</visible>
+		</datetime>
+	<!--<image name="lastplayed_logo" extra="true">
+			<visible>false</visible>
+		</image>-->
+		<text name="md_gametime">
+			<visible>false</visible>
+		</text>
+		<image name="gametime_logo" extra="true">
+			<visible>false</visible>
+		</image> 
+		
+
+   </view>
+   
+
+</theme>
