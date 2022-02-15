@@ -1,0 +1,119 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:cal="http://www.caliburnproject.org"
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:lbsc="clr-namespace:ListBoxScrollCenterNS;assembly=ListBoxScrollCenterNS_03"
+	xmlns:community="clr-namespace:COMMUNITYconverters;assembly=COMMUNITYtcfbb_013"
+	mc:Ignorable="d"
+	d:DesignHeight="300" d:DesignWidth="300" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+	
+	<UserControl.Resources>
+		<community:TextToBrush     			     x:Key="TextToBrush"/>
+		<community:ScalePropertyValue               x:Key="ScalePropertyValue"/>
+		<community:PercentOf                        x:Key="PercentOf"/>
+		<community:OffscreenPosition                x:Key="OffscreenPosition"/>
+		<community:UseValueOrFallbackWithFormat     x:Key="UseValueOrFallbackWithFormat"/>
+		<!-- TextListView -->
+		<Style x:Key="ListBoxItemStyle" TargetType="ListBoxItem">
+			<Setter Property="FocusVisualStyle" Value="{x:Null}" />
+			<Setter Property="Padding" Value="0" />
+			<Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource FindAncestor, AncestorLevel=1, AncestorType={x:Type ItemsControl}}}" />
+			<Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource FindAncestor, AncestorLevel=1, AncestorType={x:Type ItemsControl}}}" />
+			<Setter Property="Background" Value="Transparent" />
+			<Setter Property="BorderBrush" Value="Transparent" />
+			<Setter Property="BorderThickness" Value="0" />
+				
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type ListBoxItem}">
+						<Border x:Name="Bd" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0,3,0,3"
+							Padding="0" SnapsToDevicePixels="True">
+							<ContentPresenter HorizontalAlignment="Stretch"
+								VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+								Content="{TemplateBinding Content}"
+								ContentStringFormat="{TemplateBinding ContentStringFormat}"
+								ContentTemplate="{TemplateBinding ContentTemplate}"
+								SnapsToDevicePixels="True" />
+						</Border>
+						<ControlTemplate.Triggers>
+							<MultiTrigger>
+								<MultiTrigger.Conditions>
+									<Condition Property="IsMouseOver" Value="True" />
+								</MultiTrigger.Conditions>
+								<Setter TargetName="Bd" Property="Background" Value="#636363" />
+								<Setter TargetName="Bd" Property="BorderBrush" Value="#636363" />
+							</MultiTrigger>
+							<MultiTrigger>
+								<MultiTrigger.Conditions>
+									<Condition Property="Selector.IsSelectionActive" Value="False" />
+									<Condition Property="IsSelected" Value="True" />
+								</MultiTrigger.Conditions>
+								<Setter TargetName="Bd" Property="TextElement.Foreground" Value="#ffffff" />
+								<Setter TargetName="Bd" Property="Background" Value="#015F85" />
+							</MultiTrigger>
+							<MultiTrigger>
+								<MultiTrigger.Conditions>
+									<Condition Property="Selector.IsSelectionActive" Value="True" />
+									<Condition Property="IsSelected" Value="True" />
+								</MultiTrigger.Conditions>
+								<Setter TargetName="Bd" Property="Background" Value="#636363" />
+								<Setter TargetName="Bd" Property="BorderBrush" Value="#636363" />
+							</MultiTrigger>
+							<Trigger Property="IsEnabled" Value="False">
+								<Setter TargetName="Bd" Property="TextElement.Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" />
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		
+		<Style x:Key="ListBoxStyle" TargetType="ListBox">
+			<Setter Property="ItemContainerStyle" Value="{DynamicResource ListBoxItemStyle}" />
+			<Setter Property="BorderBrush" Value="Transparent" />
+			<Setter Property="Background" Value="Transparent" />
+			<Setter Property="Foreground" Value="#FF414141" />
+			<Setter Property="Opacity" Value="1.0" />
+			<Setter Property="FontFamily" Value="LAUNCHBOX_ROOT_FOLDER/Themes/Retro Console Theme Anim V2/Fonts/micross.ttf#Microsoft Sans Serif" />
+			<Setter Property="FontWeight" Value="Bold" />
+			<Setter Property="FontStyle" Value="Normal" />
+			<Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Hidden" />
+			<Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Hidden" />
+			<Setter Property="BorderThickness" Value="0" />
+			<Setter Property="Padding" Value="0" />
+			<Setter Property="Margin" Value="0" />
+			<Setter Property="FocusVisualStyle" Value="{x:Null}" />
+		</Style>
+	</UserControl.Resources>
+	
+	<DockPanel Name="RootPanel" Visibility="{Binding ListVisibility}">
+		<TextBlock x:Name="TextList_ScaledFontSize" Visibility="Collapsed" >
+			<TextBlock.Text>
+				<MultiBinding Converter="{StaticResource ScalePropertyValue}">
+					<Binding Path="." Source="FontSize;25;419"/>
+					<Binding Path="ActualWidth" ElementName="RootPanel"/>
+				</MultiBinding>
+			</TextBlock.Text>
+		</TextBlock>
+			
+			
+		<ListBox Name="Index" Style="{DynamicResource ListBoxStyle}" DockPanel.Dock="Left" Width="70" Visibility="{Binding IndexVisibility}"
+			FontSize="{Binding ElementName=TextList_ScaledFontSize, Path=Text}">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseDoubleClick">
+					<cal:ActionMessage MethodName="OnEnter" />
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</ListBox>
+		
+		<lbsc:GameList Name="Items" FontSize="{Binding ElementName=TextList_ScaledFontSize, Path=Text}" TextAlignment="Left" TextFormat="None" >
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseDoubleClick">
+					<cal:ActionMessage MethodName="OnEnter" />
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</lbsc:GameList>
+	</DockPanel>
+</UserControl>
