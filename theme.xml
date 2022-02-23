@@ -93,28 +93,28 @@ author:			Polosanretro
 
 
 <!-- scrollSound -->
-   <include subset="scrollSound" name="notification">./_assets/variables/scroll/notification.xml</include>
-   <include subset="scrollSound" name="kouak">./_assets/variables/scroll/kouak.xml</include>
-   <include subset="scrollSound" name="blaster">./_assets/variables/scroll/blaster.xml</include>
-   <include subset="scrollSound" name="9mm-falling">./_assets/variables/scroll/9mm-falling.xml</include>
-   <include subset="scrollSound" name="357">./_assets/variables/scroll/357.xml</include>
-   <include subset="scrollSound" name="credit-donkey-kong">./_assets/variables/scroll/credit-donkey-kong.xml</include>
-   <include subset="scrollSound" name="doom-punch">./_assets/variables/scroll/doom-punch.xml</include>
-   <include subset="scrollSound" name="credit-street-fighter">./_assets/variables/scroll/credit-street-fighter.xml</include>
-   <include subset="scrollSound" name="mario">./_assets/variables/scroll/mario.xml</include>
-   <include subset="scrollSound" name="credit-golden-axe">./_assets/variables/scroll/credit-golden-axe.xml</include>
-   <include subset="scrollSound" name="credit-ecofighters">./_assets/variables/scroll/credit-ecofighters.xml</include>
-   <include subset="scrollSound" name="ryuken-hadooken">./_assets/variables/scroll/ryuken-hadooken.xml</include>
-   <include subset="scrollSound" name="perfect">./_assets/variables/scroll/perfect.xml</include>
-   <include subset="scrollSound" name="lucasarts">./_assets/variables/scroll/lucasarts.xml</include>
-   <include subset="scrollSound" name="mario-coin">./_assets/variables/scroll/mario-coin.xml</include>
-   <include subset="scrollSound" name="Yoshi">./_assets/variables/scroll/Yoshi.xml</include>
-   <include subset="scrollSound" name="yoshi-gloups">./_assets/variables/scroll/Yoshi2.xml</include>
-   <include subset="scrollSound" name="poker">./_assets/variables/scroll/poker.xml</include>
-   <include subset="scrollSound" name="kid_chameleon">./_assets/variables/scroll/kid_chameleon.xml</include>
-   <include subset="scrollSound" name="link-sword">./_assets/variables/scroll/link-sword.xml</include>
+   <include subset="scrollSound" name="notification">./scroll/notification.xml</include>
+   <include subset="scrollSound" name="kouak">./scroll/kouak.xml</include>
+   <include subset="scrollSound" name="blaster">./scroll/blaster.xml</include>
+   <include subset="scrollSound" name="9mm-falling">./scroll/9mm-falling.xml</include>
+   <include subset="scrollSound" name="357">./scroll/357.xml</include>
+   <include subset="scrollSound" name="credit-donkey-kong">./scroll/credit-donkey-kong.xml</include>
+   <include subset="scrollSound" name="doom-punch">./scroll/doom-punch.xml</include>
+   <include subset="scrollSound" name="credit-street-fighter">./scroll/credit-street-fighter.xml</include>
+   <include subset="scrollSound" name="mario">./scroll/mario.xml</include>
+   <include subset="scrollSound" name="credit-golden-axe">./scroll/credit-golden-axe.xml</include>
+   <include subset="scrollSound" name="credit-ecofighters">./scroll/credit-ecofighters.xml</include>
+   <include subset="scrollSound" name="ryuken-hadooken">./scroll/ryuken-hadooken.xml</include>
+   <include subset="scrollSound" name="perfect">./scroll/perfect.xml</include>
+   <include subset="scrollSound" name="lucasarts">./scroll/lucasarts.xml</include>
+   <include subset="scrollSound" name="mario-coin">./scroll/mario-coin.xml</include>
+   <include subset="scrollSound" name="Yoshi">./scroll/Yoshi.xml</include>
+   <include subset="scrollSound" name="yoshi-gloups">./scroll/Yoshi2.xml</include>
+   <include subset="scrollSound" name="poker">./scroll/poker.xml</include>
+   <include subset="scrollSound" name="kid_chameleon">./scroll/kid_chameleon.xml</include>
+   <include subset="scrollSound" name="link-sword">./scroll/link-sword.xml</include>
    <include subset="scrollSound" name="link-sword2">./_assets/variables/scroll/link-sword2.xml</include>
-   <include subset="scrollSound" name="scroll">./_assets/variables/scroll/scroll.xml</include>
+   <include subset="scrollSound" name="scroll">./scroll/scroll.xml</include>
 
 
 
