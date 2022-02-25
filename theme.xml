@@ -93,28 +93,25 @@ author:			Polosanretro
 
 
 <!-- scrollSound -->
-   <include subset="scrollSound" name="notification">./scroll/notification.xml</include>
-   <include subset="scrollSound" name="kouak">./scroll/kouak.xml</include>
-   <include subset="scrollSound" name="blaster">./scroll/blaster.xml</include>
-   <include subset="scrollSound" name="9mm-falling">./scroll/9mm-falling.xml</include>
-   <include subset="scrollSound" name="357">./scroll/357.xml</include>
-   <include subset="scrollSound" name="credit-donkey-kong">./scroll/credit-donkey-kong.xml</include>
-   <include subset="scrollSound" name="doom-punch">./scroll/doom-punch.xml</include>
-   <include subset="scrollSound" name="credit-street-fighter">./scroll/credit-street-fighter.xml</include>
-   <include subset="scrollSound" name="mario">./scroll/mario.xml</include>
-   <include subset="scrollSound" name="credit-golden-axe">./scroll/credit-golden-axe.xml</include>
-   <include subset="scrollSound" name="credit-ecofighters">./scroll/credit-ecofighters.xml</include>
-   <include subset="scrollSound" name="ryuken-hadooken">./scroll/ryuken-hadooken.xml</include>
-   <include subset="scrollSound" name="perfect">./scroll/perfect.xml</include>
-   <include subset="scrollSound" name="lucasarts">./scroll/lucasarts.xml</include>
-   <include subset="scrollSound" name="mario-coin">./scroll/mario-coin.xml</include>
-   <include subset="scrollSound" name="Yoshi">./scroll/Yoshi.xml</include>
-   <include subset="scrollSound" name="yoshi-gloups">./scroll/Yoshi2.xml</include>
-   <include subset="scrollSound" name="poker">./scroll/poker.xml</include>
-   <include subset="scrollSound" name="kid_chameleon">./scroll/kid_chameleon.xml</include>
-   <include subset="scrollSound" name="link-sword">./scroll/link-sword.xml</include>
-   <include subset="scrollSound" name="link-sword2">./_assets/variables/scroll/link-sword2.xml</include>
-   <include subset="scrollSound" name="scroll">./scroll/scroll.xml</include>
+   <include subset="scrollSound" name="notification">./variant/variant/scroll/notification.xml</include>
+   <include subset="scrollSound" name="kouak">./variant/variant/scroll/kouak.xml</include>
+   <include subset="scrollSound" name="blaster">./variant/variant/scroll/blaster.xml</include>
+   <include subset="scrollSound" name="credit-donkey-kong">./variant/variant/scroll/credit-donkey-kong.xml</include>
+   <include subset="scrollSound" name="doom-punch">./variant/variant/scroll/doom-punch.xml</include>
+   <include subset="scrollSound" name="street-fighter">./variant/variant/scroll/credit-street-fighter.xml</include>
+   <include subset="scrollSound" name="mario">./variant/variant/scroll/mario.xml</include>
+   <include subset="scrollSound" name="credit-golden-axe">./variant/variant/scroll/credit-golden-axe.xml</include>
+   <include subset="scrollSound" name="street-fighters2">./variant/variant/scroll/credit-ecofighters.xml</include>
+   <include subset="scrollSound" name="ryuken-hadooken">./variant/variant/scroll/ryuken-hadooken.xml</include>
+   <include subset="scrollSound" name="perfect">./variant/variant/scroll/perfect.xml</include>
+   <include subset="scrollSound" name="lucasarts">./variant/variant/scroll/lucasarts.xml</include>
+   <include subset="scrollSound" name="mario-coin">./variant/variant/scroll/mario-coin.xml</include>
+   <include subset="scrollSound" name="Yoshi">./variant/variant/Yoshi.xml</include>
+   <include subset="scrollSound" name="yoshi-gloups">./variant/variant/scroll/Yoshi2.xml</include>
+   <include subset="scrollSound" name="poker">./variant/variant/scroll/poker.xml</include>
+   <include subset="scrollSound" name="link-sword">./variant/variant/scroll/link-sword.xml</include>
+   <include subset="scrollSound" name="link-sword2">./variant/variant/scroll/link-sword2.xml</include>
+   <include subset="scrollSound" name="scroll">./variant/variant/scroll/scroll.xml</include>
 
 
 
