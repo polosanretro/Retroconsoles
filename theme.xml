@@ -89,6 +89,7 @@ author:			Polosanretro
 	<include subset="systembackground" name="Retroconsoles images Dark">./_inc/systemviews/retroconsole-dark.xml</include>
 
 
+
 	<include tinyScreen="true" name="TinyScreen">./_inc/systemviews/tinyscreen.xml</include>
 
 
@@ -131,16 +132,16 @@ author:			Polosanretro
 
 
 <!-- Shader -->
-    <include subset="Shader" name="off">./art/sistemas/shader/off.xml</include>
-    <include subset="Shader" name="crt">./art/sistemas/shader/crt.xml</include>
-    <include subset="Shader" name="scanlines1">./art/sistemas/shader/scanlines.xml</include>
-    <include subset="Shader" name="scanlines2">./art/sistemas/shader/scanlines3.xml</include>
-    <include subset="Shader" name="scanlines3">./art/sistemas/shader/scanlines4.xml</include>
-    <include subset="Shader" name="scanlines4">./art/sistemas/shader/scanlines5.xml</include>
-    <include subset="Shader" name="scanlines5">./art/sistemas/shader/scanlines10.xml</include>
-    <include subset="Shader" name="éclairs">./art/sistemas/shader/tv_effect_glitch.xml</include>
-    <include subset="Shader" name="glitch">./art/sistemas/shader/tv_effect_glitch1.xml</include>
-    <include subset="Shader" name="vhs">./art/sistemas/shader/tv_effect_vhs_glitch.xml</include>
+    <include subset="Shader" name="off">./_inc/shader/off.xml</include>
+    <include subset="Shader" name="crt">./_inc/shader/crt.xml</include>
+    <include subset="Shader" name="scanlines1">./_inc/shader/scanlines.xml</include>
+    <include subset="Shader" name="scanlines2">./_inc/shader/scanlines3.xml</include>
+    <include subset="Shader" name="scanlines3">./_inc/shader/scanlines4.xml</include>
+    <include subset="Shader" name="scanlines4">./_inc/shader/scanlines5.xml</include>
+    <include subset="Shader" name="scanlines5">./_inc/shader/scanlines10.xml</include>
+    <include subset="Shader" name="éclairs">./_inc/shader/tv_effect_glitch.xml</include>
+    <include subset="Shader" name="glitch">./_inc/shader/tv_effect_glitch1.xml</include>
+    <include subset="Shader" name="vhs">./_inc/tv_effect_vhs_glitch.xml</include>
 
 
 
@@ -626,7 +627,7 @@ author:			Polosanretro
 <!-- Icons -->
 	<subset name="helpsystem" displayName="${helpSubsetName}">
 		<include name="buttons" displayName="${helpbuttons}">./_inc/help/buttons.xml</include>
-                <include name="arcadeIcons" displayName="${arcadeIcons}">./_assets/xml/help1.xml </include>
+                <include name="arcadeIcons" displayName="${arcadeIcons}">./_inc/help/help1.xml </include>
 		<include name="xbox" displayName="${xboxbuttons}">./_inc/help/xbox.xml</include>
 		<include name="psx" displayName="${psxbuttons}">./_inc/help/psx.xml</include>
                 <include name="switch" displayName="${switchbuttons}">./_inc/help/switch.xml</include>
