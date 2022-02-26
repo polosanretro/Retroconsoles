@@ -120,7 +120,7 @@
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>
 			<scrollbarAlignment>outerright</scrollbarAlignment>
-        <scrollSound>./variant/scroll/${x.scroll.game.sound}.wav</scrollSound>
+        <scrollSound>./../../variant/scroll/${x.scroll.sound}.wav</scrollSound>
 <zIndex>192</zIndex>
 		</textlist>
 
