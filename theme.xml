@@ -414,7 +414,7 @@ author:			Polosanretro
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>
 			<scrollbarAlignment>outerright</scrollbarAlignment>
-        <scrollSound>./variant/scroll/${x.scroll.game.sound}.wav</scrollSound>
+        <scrollSound>./variant/scroll/${x.scroll.sound}.wav</scrollSound>
 <zIndex>192</zIndex>
 		</textlist>
 
@@ -448,6 +448,7 @@ author:			Polosanretro
 			<autoLayout>4 2</autoLayout>
 			<margin>0.005 0.010</margin>
 			<padding>0.03 0.04 0.03 0.1</padding>
+        <scrollSound>./variant/scroll/${x.scroll.sound}.wav</scrollSound>
 		</imagegrid>
 
 		<text name="gridtile">
