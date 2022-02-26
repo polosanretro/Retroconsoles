@@ -156,8 +156,7 @@
 			<maxLogoCount>15</maxLogoCount>
 			<zIndex>99</zIndex>
 			<imageSource>marquee</imageSource>
-        <scrollSound>./_assets/scroll/${x.scroll.sound}.wav</scrollSound>
-        <scrollSound>./_assets/scroll/${x.scroll.game.sound}.wav</scrollSound>
+        <scrollSound>./variant/scroll/${x.scroll.game.sound}.wav</scrollSound>
 		</gamecarousel>
 
 

@@ -21,6 +21,7 @@
 			<autoLayout>4 2</autoLayout>
 			<margin>0.005 0.010</margin>
 			<padding>0.03 0.04 0.03 0.1</padding>
+ <scrollSound>./../../variant/scroll/${x.scroll.game.sound}.wav</scrollSound>
 		</imagegrid>
 
 		<text name="gridtile">
@@ -35,6 +36,7 @@
 			<origin>0.5 0.5</origin>
 			<horizontalAlignment>right</horizontalAlignment>
 			<color>FFFF00B0</color>
+ <scrollSound>./../../variant/scroll/${x.scroll.game.sound}.wav</scrollSound>
 		</image>
 
 		<image name="gamelistBackground" extra="true">
@@ -44,6 +46,7 @@
 			<pos>0.66 0.16</pos>
 			<size>0.34 0.774</size>
 			<zIndex>103</zIndex>
+        <scrollSound>./variant/scroll/${x.scroll.game.sound}.wav</scrollSound>
 		</image>
 
 		<image name="md_image">
