@@ -3,7 +3,7 @@
 	
 	<view name="menu, system, basic, detailed, video, grid, gamecarousel">
 		<helpsystem name="help">
-                        <pos>0.60 0.98</pos>
+<pos>0.35 0.978</pos>
 			<iconColor>FFFFFFFF</iconColor>
 			<iconUpDown>./arcade/updown.png</iconUpDown>
 			<iconLeftRight>./arcade/leftright.png</iconLeftRight>

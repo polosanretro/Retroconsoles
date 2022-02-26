@@ -3,6 +3,7 @@
 	
 	<view name="menu, system, basic, detailed, video, grid, gamecarousel">
 		<helpsystem name="help">
+<pos>0.35 0.978</pos>
 			<iconColor>FFFFFFFF</iconColor>
 			<iconUpDown>./switch/updown.png</iconUpDown>
 			<iconLeftRight>./switch/leftright.png</iconLeftRight>
