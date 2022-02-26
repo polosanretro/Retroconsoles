@@ -140,7 +140,7 @@
 		</image>
 
 		<textlist name="gamelist">
-			<selectorColor>333333ff</selectorColor>
+			<selectorColor>ffffff</selectorColor>
 			<selectedColor>${baseColor}</selectedColor>
 			<primaryColor>cccccc</primaryColor>
 			<secondaryColor>cccccc</secondaryColor>
@@ -152,7 +152,7 @@
 			<lines>19</lines>
 			<horizontalMargin>0.005</horizontalMargin>
 			<fontSize>0.025</fontSize>
-			<scrollbarColor>333333ff</scrollbarColor>
+			<scrollbarColor>ffffff</scrollbarColor>
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>
 			<scrollbarAlignment>outerright</scrollbarAlignment>
