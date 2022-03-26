@@ -115,6 +115,13 @@ author:			Polosanretro
    <include subset="scrollSound" name="scroll">./variant/variant/scroll/scroll.xml</include>
 
 
+<!--Glogo-->
+	<subset name="gamelist_logo">
+		<include subset="gamelist_logo" name="logo-nuages">./_inc/views/gamelist_logo.xml</include>
+		<include subset="gamelist_logo" name="Off"></include>
+	</subset>
+
+
 
 <!--Sonores-->
    <include subset="Sonores" name="no"/>
